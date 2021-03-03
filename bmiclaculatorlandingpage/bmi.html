@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>BMI Calculator</h1>
+    
+    <!-- need two inputs, one with id weight, one with height -->
+    <input type="text" placeholder="Weight in kg" id="weight">
+    <input type="text" placeholder="Height in m" id="height">
+    
+    <br><br><br>
+    
+    <button onclick="calculateBMI()">
+      Press to calculate your BMI
+    </button>
+    
+    <p id="bmiResults">
+    </p>
+    
+    <p id="bmiRecommended">
+    </p>
+    <p id="bmiFat">
+    </p>
+    <p id="bmiSkinny">
+    </p>
+  </body>
+</html>
